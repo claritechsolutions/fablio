@@ -1,0 +1,32 @@
+Git
+
+1]Get repository link - https://github.com/claritechsolutions/fablio.git
+git clone [url]
+
+Git pull
+1] git pull origin branch-name
+------------create a single--------------
+1] Feature branch
+    ankit-dev
+    kajal-dev
+2] Main branch [master branch]
+    Main
+    master
+
+2] Create branch [feature branch/own branch]
+1] git branch branch_name
+2] git checkout branch_name
+
+3] git push
+1] git pull main branch/origin branch
+2] changes[source control]
+3] stage changes
+4] git commit [message] = add message and click on commit button(tick mark)
+5] git push [feature branch]
+
+4] Raise PR
+
+
+---------------------------------------
+Stash
+
