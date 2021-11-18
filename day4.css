@@ -1,0 +1,76 @@
+day4.css
+<style>
+div.paper{
+    background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+    background-size: cover;
+}
+html,body{
+    background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+    }
+input[type=text], input[type=password]{
+    background: transparent;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 5px 0;
+    display: inline-block;
+    
+    border-bottom: 1px solid red;
+    /*box-sizing: border-box;*/
+    border: 0;
+
+  }
+  input:focus{
+    outline: none;
+    box-shadow: none;
+  }
+  input[type=button]{
+      width: 100%;
+      padding: 12px 20px;
+      margin:12px 0;
+      color: darkblue;
+      background-color: rgb(85, 153, 85);
+  }
+   input.button:hover{
+         opacity: 0.4;
+    }
+    img.avatar {
+        width: 50%;
+        
+        border-radius: 60%;
+        text-align: center;
+          
+      }
+      .imgcontainer {
+        text-align: center;
+        margin: 24px 0 12px 0;
+        position: relative;
+      }
+      section.cont{
+         background: transparent;
+          padding-top: 40px;
+          padding-bottom: 80px;
+          padding-right: 30px;
+          padding-left: 30px;
+          align-items: center;
+         /* background-color: rgb(195, 218, 195);*/
+          margin-left: 400px;
+          margin-right: 400px;
+         <!.. margin-top: 150px;
+          margin-bottom: 150px;..>
+          display: inline-block;
+          
+          
+      }
+      button[type=button]{
+        width: 60%;
+        padding: 12px 20px;
+        margin:12px 0;
+        color: darkblue;
+        background-color: rgb(85, 153, 85);
+    }
+    
+  </style>
